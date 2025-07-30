@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.page1 {
+    height: 100vh;
+    background-color: rgb(3, 12, 43);
+}
+
+.page2 {
+    height: 100vh;
+    background-color: rgb(170, 45, 45);
+    
+ 
+}
+
+
+.page3 {
+    height: 100vh;
+    background-color: rgb(2, 34, 32);
+    
+}
+
+.page2 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+}
