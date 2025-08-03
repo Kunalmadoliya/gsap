@@ -1,0 +1,64 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-weight: 300;
+  background-color: blanchedalmond;
+  overflow-x: hidden;
+}
+
+
+.nav {
+  border: 2px solid black;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.hamburger {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.right {
+  position: fixed; 
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 400px;
+  padding: 80px 50px;
+  background-color: white;
+  backdrop-filter: blur(80px);
+  transform: translateX(150%); 
+ 
+}
+
+.close{
+    position: absolute;
+    font-size: 2rem;
+    border: 2px solid ;
+    padding: 10px 10px;
+    right: 0;
+    margin: 10px 20px;
+    top: 0;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.right p {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
